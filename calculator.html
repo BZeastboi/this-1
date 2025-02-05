@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Sample calculator</title>
+</head>
+<body>
+<script>
+let num1 = parsefloat(prompt("Enter the first number:"));
+let num2 = parsefloat(prompt("Enter second number:"));
+if (isNaN(num1) || isNaN(num2)) {
+alert("Invalid input. Please enter numbers.");
+} else {
+let sum=num1 + num2;
+alert("The sum is: "+sum);
+}
+let diff=num1 - num2;
+alert("The sum is:"+diff);
+}
+let product=num1 * num2;
+alert("The product is:"+product);
+}
+let quo=num1 / num2;
+alert("The quo is:"+quo);
+</script>
+</body>
+</html>
