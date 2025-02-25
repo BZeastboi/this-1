@@ -1,5 +1,5 @@
 Rock Paper Scissors
-<html
+<html>
 <head>
 <title>Rock,Paper,Scissor</title>
 <head>
@@ -19,11 +19,11 @@ let result;
 
 if<userChoice===computerChoice){
 reesult="Its a Drawww!";
-}else if(
+} else if (
 (userChoice==="rock"&&computerChoice=="scissors")||
 (userChoice==="paper"&&computerChoice=="rock")||
 (userChoice==="scissor"&&computerChoice=="paper")||
-){
+) {
 result="You Winnn!";
 } else {
 result="You Loseee!";
