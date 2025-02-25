@@ -18,15 +18,15 @@ const computerChoice=choices[Math.floor(Math.random()*choices.lenght)];
 let result;
 
 if<userChoice===computerChoice){
-reesult="Its a Drawww!";
+reesult="Its a Draw!";
 }else if(
 (userChoice==="rock"&&computerChoice=="scissors")||
 (userChoice==="paper"&&computerChoice=="rock")||
 (userChoice==="scissor"&&computerChoice=="paper")||
 ){
-result="You Winnn!";
+result="You Win!";
 } else {
-result="You Loseee!";
+result="You Lose!";
 }
 
 document.getElementById("result).InnerText=
