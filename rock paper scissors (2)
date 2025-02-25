@@ -1,0 +1,38 @@
+Rock Paper Scissors
+<html
+<head>
+<title>Rock,Paper,Scissor</title>
+<head>
+<body>
+<h1>Rock,Paper,Scissor</h1>
+<button onclick="playGame("rock")">Rock</button>
+<button onclick="playGame("paper")">Paper</button>
+<button onclick="playGame<"scissor")">Scissors</button>
+<p Id="result"></p>
+
+<script>
+function playGame(userChoice){
+const choices=["rock","paper","scissors"];
+const computerChoice=
+const computerChoice=choices[Math.floor(Math.random()*choices.lenght)];
+let result;
+
+if<userChoice===computerChoice){
+reesult="Its a Drawww!";
+}else if(
+(userChoice==="rock"&&computerChoice=="scissors")||
+(userChoice==="paper"&&computerChoice=="rock")||
+(userChoice==="scissor"&&computerChoice=="paper")||
+){
+result="You Winnn!";
+} else {
+result="You Loseee!";
+}
+
+document.getElementById("result).InnerText=
+'You chose$(userChoice},Computer chose$
+{computerChoice}.${result};
+}
+</script>
+</body>
+</html>
